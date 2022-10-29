@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
-import styles from '../styles/Home.module.css';
 import EventCard from '../components/EventCard';
+import banner from '../public/banner.png';
 
 export default function Home() {
   const events = ['Event 1', 'Event 2', 'Event 3', 'Event 4'];
@@ -15,14 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="z-[-5] absolute min-h-[45vh] w-screen">
+        <div className="z-[-5] absolute min-h-[40vh] w-screen">
           <Image
-            src="/banner.png"
+            src={banner}
             alt="Jupiter"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            style={{ zIndex: -5 }}
+            priority
+            className="object-fill bg-cover md:h-[65vh] w-full h-[45vh]"
           />
         </div>
         <div className="justify-center flex flex-col min-h-[45vh] mx-auto md:w-[55vw] w-[75vw]">
@@ -39,7 +36,7 @@ export default function Home() {
         </div>
         <div className="p-8">
           <h1 className="font-medium text-2xl">Events</h1>
-          <div className="grid grid-cols-4 grid-flow-row gap-4 w-full h-max">
+          <div className="md:grid md:grid-cols-4 grid-flow-row gap-4 w-full h-max">
             {events.map((event, key) => {
               return <EventCard key={key} name={event} />;
             })}
