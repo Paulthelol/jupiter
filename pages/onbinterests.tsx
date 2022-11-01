@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { useState } from 'react';
 
 
-export default function Onboarding(){
+export default function OBInterests(){
 const [showAcDialog, setShowAcDialog] = useState(false);
 const [showArtDialog, setShowArtDialog] = useState(false);
 const [showSpDialog, setShowSpDialog] = useState(false);

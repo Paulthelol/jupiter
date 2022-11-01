@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from 'next/router'
 
-export default function Onboarding(){
+export default function OBAccountConf(){
     const router = useRouter();
 
     return <>
