@@ -100,11 +100,11 @@ export default function OBPersonalInfo(){
                     <div>
                         <button style={{
                                     position: "absolute", 
-                                    left: 235, 
+                                    left: 195, 
                                     top: 515
                                 }} onClick={() => {
                                         router.push('/onbinterests');
-                                    }} className="continuePersonalButton" type="button">
+                                    }} className="onboardingContinueButton" type="button">
                             CONTINUE TO PERSONAL INTERESTS
                         </button>
                     </div>
@@ -112,7 +112,7 @@ export default function OBPersonalInfo(){
                         <button style={{
                             position: "absolute",
                             left: 290,
-                            top: 550
+                            top: 560
                         }} className="setLaterButton" type="button">
                             SET UP LATER
                         </button>

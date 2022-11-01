@@ -400,19 +400,19 @@ const router = useRouter();
                     <div>
                         <button style={{
                                     position: "absolute",
-                                    left: 347,
-                                    top: 570
+                                    left: 195,
+                                    top: 515
                                 }} onClick={() => {
                                     router.push('/onbrecom');
-                                    }} className="continuePersonalButton" type="button">
+                                    }} className="onboardingContinueButton" type="button">
                             CONTINUE TO RECOMMENDATIONS
                         </button>
                     </div>
                     <div>
                         <button style={{
                                 position: "absolute",
-                                left: 242,
-                                top: 570
+                                left: 290,
+                                top: 565
                             }} className="setLaterButton" type="button">
                             SET UP LATER
                         </button>

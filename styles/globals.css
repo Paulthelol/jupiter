@@ -102,6 +102,7 @@ background: #FFFFFF;
   height: 93px;
   left: 25px;
   top: -2px;
+  padding: 10px;
   
 
   font-family: 'Jost', sans-serif;
@@ -120,6 +121,7 @@ background: #FFFFFF;
   height: 100px;
   left: 30px;
   top: 55px;
+  padding-top: 5px;
 
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -199,16 +201,19 @@ background: #FFFFFF;
   font-weight: 550;
 }
 
-.continueButton{
+.onboardingContinueButton{
   position: absolute;
   left: 195px;
   top: 470px;
+  padding-left: 5px;
+  padding-right: 5px;
 
   font-family: 'Roboto', sans-serif;
   font-weight: 550;
   color: #FAFAFA;
   border-radius: 5px;
-  width: 287px;
+  width: fit-content;
+  min-width: 287px;
   height: 37px;
   background-color: #387D78;
 }
