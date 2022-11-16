@@ -3,6 +3,7 @@ import React, { FC, useState } from 'react';
 import logo from '../../assets/media/icons/Jupiter.png';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import { registerWithEmailAndPassword } from '../../firebase';
 
 interface MobileNavProps {
   open: boolean;
@@ -59,6 +60,7 @@ export default function Navbar() {
 
   // Temporary login/logout button
   const handleLogin = () => {
+    registerWithEmailAndPassword("Test User", "jake@utdnebula.com", "password");
     setLoggedIn(!loggedIn);
   };
 
