@@ -16,9 +16,8 @@ export default function About() {
       <div className="mx-auto max-w-2xl">
         <h1 className="text-lg font-bold py-4">About Jupiter</h1>
         {[
-          'Incidunt quam amet ullam nesciunt assumenda occaecati. Animi quibusdam impedit alias quam omnis. Autem nisi minima iusto sunt. Repellat dignissimos sit aperiam nesciunt autem temporibus id et. Ut quo consectetur illo in possimus et non quas.',
-          'Neque quis dolores minima quaerat est eligendi recusandae. Aut voluptatem quos consectetur excepturi repellat dolores. Nam sapiente voluptatem eum laboriosam possimus omnis. Veniam atque et voluptatem aut.',
-          'Sequi rerum quisquam recusandae. Necessitatibus incidunt debitis doloremque error qui doloribus optio sunt. Est ea eligendi fuga minima facere voluptatem omnis. Iure ut et quo qui eaque. Dolor et corporis tenetur rerum doloremque non ea. Saepe voluptatem suscipit ex.',
+          'Jupiter is a new tool that helps students make the most of what UTD has to offer. Students can interact with organizations on campus to discover how to best get involved.',
+          'Jupiter provides a listing of campus organizations and ways to interact with them. This includes searching for organizations using key information, discovering events, and finding wayas to contact the org.',
         ].map((pText, i) => (
           <p key={i} className="mb-4">
             {pText}
