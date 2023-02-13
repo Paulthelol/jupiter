@@ -42,12 +42,9 @@ const OrganizationPage = () => {
               height={250}
             />
           </div>
-          <div className="md:col-span-2">
+          <div style={{whiteSpace: "pre-line"}} className="md:col-span-2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              eaque illum natus voluptatum adipisci quisquam. Autem nulla eos
-              amet itaque assumenda praesentium cupiditate? Illum nesciunt neque
-              vero, odio saepe ipsum.
+             {org.description ?? "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ut. Aliquid est et laboriosam nulla minima deleniti id, nostrum sintobcaecati! Repellat molestiae non facere nisi quis omnis ex optio."}
             </p>
           </div>
           <div className="md:col-span-2">

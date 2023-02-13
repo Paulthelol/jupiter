@@ -1,14 +1,38 @@
 [
-    { "name": "Nebula Labs", "imageLink": "/nebula-logo.png", "tags": ["awesome", "super fun"]},
-    { "name": "ACM UTD", "imageLink": "https://github.com/acmutd/brand-kit/blob/c41a67dc03d09444535a22dea11cebea52ae65be/General/Assets/Logos/acm-new-logo-black.png?raw=true", "tags": ["technology"]},
-    { "name": "Aluben After Hours", "imageLink": "/nebula-logo.png", "tags": ["social", "guitar", "coding"]},
-    { "name": "UTD Mercury", "imageLink":"/utd-monogram-solid-rgb.jpg", "tags": ["test"]},
-    { "name": "AIS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["test"]},
-    { "name": "UTD Tech Store", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["UTD"]},
-    { "name": "UTD FOCUS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["test"]},
-    { "name": "SHPE UTD", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["Professional"]},
-    { "name": "AIAA", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["Engineering"]},
-    { "name": "CSG", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["cyber security"]},
-    { "name": "SWE", "imageLink": "/utd-monogram-solid-rgb.jpg","tags": ["Professional"]},
-    { "name": "EPICS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["UTD"]}
+    { "name": "Nebula Labs", "imageLink": "/nebula-logo.png", "tags": ["engineering", "product", "design"],
+     "description":"Nebula Labs is an initiative to build tools that help students at The University of Texas at Dallas. We're a community of student developers and designers who make college life easier through projects.\n\n Students have the opporunity to get involved in bulding applications that are used by real students. This is a unique opportunity to make an impact in the UTD community and grow your skills with projects that are similar to real industry work.",
+     "contactInfo": {"Discord": "", "email": ""}
+    },
+    { "name": "ACM UTD", "imageLink": "https://github.com/acmutd/brand-kit/blob/c41a67dc03d09444535a22dea11cebea52ae65be/General/Assets/Logos/acm-new-logo-black.png?raw=true", "tags": ["technology"],
+    "description":"We're a team of students with one goal: building a greater, more collaborative computing community at The University of Texas at Dallas."
+    },
+    { "name": "Nebula After Hours", "imageLink": "/nebula-logo.png", "tags": ["social", "guitar", "coding"]
+    },
+    { "name": "UTD Mercury", "imageLink":"/utd-monogram-solid-rgb.jpg", "tags": ["test"],
+    "description":"test"
+    },
+    { "name": "AIS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["test"],
+    "description":"test"
+    },
+    { "name": "UTD Tech Store", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["UTD"],
+    "description":"test"
+    },
+    { "name": "UTD FOCUS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["test"],
+    "description":"test"
+    },
+    { "name": "SHPE UTD", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["Professional"],
+    "description":"test"
+    },
+    { "name": "AIAA", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["Engineering"],
+    "description":"test"
+    },
+    { "name": "CSG", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["cyber security"],
+    "description":"test"
+    },
+    { "name": "SWE", "imageLink": "/utd-monogram-solid-rgb.jpg","tags": ["Professional"],
+    "description":"test"
+    },
+    { "name": "EPICS", "imageLink": "/utd-monogram-solid-rgb.jpg", "tags": ["UTD"],
+    "description":"test"
+    }
   ]
