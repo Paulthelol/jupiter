@@ -1,7 +1,7 @@
 import { AppProps } from "next/app";
 import Navbar from "../components/navigation/Navbar";
 import "../styles/globals.css";
-import StartPage from "./onboarding/startpage"
+import StartPage from "./onboarding/index"
 import OBPersonalInfo from "./onboarding/perinfo"
 import OBInterests from "./onboarding/onbinterests"
 import OBReccomendations from "./onboarding/onbrecom"

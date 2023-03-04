@@ -69,7 +69,7 @@ export default function Onboarding(){
                             
                             <div>
                                 <button onClick={() => {
-                                    router.push('./perinfo');
+                                    router.push('./onboarding/perinfo');
                                     }} className="onboardingContinueButton" type="button">
                                     Continue
                                 </button>

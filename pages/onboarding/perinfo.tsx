@@ -108,7 +108,7 @@ export default function OBPersonalInfo(){
                                     left: 195, 
                                     top: 515
                                 }} onClick={() => {
-                                        router.push('./onbinterests');
+                                        router.push('./accountconf');
                                     }} className="onboardingContinueButton" type="button">
                             CONTINUE TO PERSONAL INTERESTS
                         </button>
