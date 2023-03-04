@@ -1,11 +1,11 @@
 import { AppProps } from "next/app";
 import Navbar from "../components/navigation/Navbar";
 import "../styles/globals.css";
-import StartPage from "../pages/startpage"
-import OBPersonalInfo from "../pages/perinfo"
-import OBInterests from "../pages/onbinterests"
-import OBReccomendations from "../pages/onbrecom"
-import OBAccountConf from "../pages/accountconf"
+import StartPage from "./onboarding/startpage"
+import OBPersonalInfo from "./onboarding/perinfo"
+import OBInterests from "./onboarding/onbinterests"
+import OBReccomendations from "./onboarding/onbrecom"
+import OBAccountConf from "./onboarding/accountconf"
 
 
 

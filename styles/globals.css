@@ -191,6 +191,7 @@ background: #FFFFFF;
   border-radius: 5px;
   width: 210px;
   font-weight: 550;
+  padding: 5px;
 }
 
 .onboardother-input{
@@ -199,6 +200,7 @@ background: #FFFFFF;
   border-radius: 5px;
   width: 440px;
   font-weight: 550;
+  padding: 5px;
 }
 
 .onboardingContinueButton{
